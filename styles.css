@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+    color: #333;
+}
+
+/* Títulos */
+h1 {
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+/* Cabecera */
+thead th {
+    background-color: #e9e9e9;
+}
+
+/* Filas alternas (muy simple y efectiva) */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover suave */
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Enlaces */
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Sección */
+section {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+}
